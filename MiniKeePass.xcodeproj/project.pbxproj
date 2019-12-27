@@ -27,6 +27,11 @@
 		52E43F4E15B59C890029F979 /* ru-itunes.html in Resources */ = {isa = PBXBuildFile; fileRef = 52E43F4915B59C890029F979 /* ru-itunes.html */; };
 		52E43F4F15B59C890029F979 /* ru-keyfiles.html in Resources */ = {isa = PBXBuildFile; fileRef = 52E43F4A15B59C890029F979 /* ru-keyfiles.html */; };
 		52E43F5015B59C890029F979 /* ru-safariemail.html in Resources */ = {isa = PBXBuildFile; fileRef = 52E43F4B15B59C890029F979 /* ru-safariemail.html */; };
+		55F7452623B6C32B009E513A /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F7452523B6C32B009E513A /* AuthenticationServices.framework */; };
+		55F7452C23B6C4AE009E513A /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F7452523B6C32B009E513A /* AuthenticationServices.framework */; };
+		55F7452F23B6C4AE009E513A /* CredentialProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7452E23B6C4AE009E513A /* CredentialProviderViewController.swift */; };
+		55F7453223B6C4AE009E513A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7453023B6C4AE009E513A /* MainInterface.storyboard */; };
+		55F7453723B6C4AE009E513A /* AutoFillProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 55F7452B23B6C4AE009E513A /* AutoFillProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6802C36F1A425D7300595AC9 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6802C36E1A425D7300595AC9 /* LocalAuthentication.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		680C277616050C7A009403DE /* DDXMLDocument+MKPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 680C277516050C7A009403DE /* DDXMLDocument+MKPAdditions.m */; };
 		680C9D771D69E2A70040FB43 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C9D761D69E2A70040FB43 /* HelpViewController.swift */; };
@@ -143,7 +148,28 @@
 			remoteGlobalIDString = D286A7491518C70F00E13FB8;
 			remoteInfo = MBProgressHUD;
 		};
+		55F7453523B6C4AE009E513A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689DFFCC13A4273F005EBD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F7452A23B6C4AE009E513A;
+			remoteInfo = AutoFillProvider;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55F7453B23B6C4AE009E513A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				55F7453723B6C4AE009E513A /* AutoFillProvider.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4E8C168E16B3E871004195A1 /* fr-createdb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fr-createdb.html"; sourceTree = "<group>"; };
@@ -174,6 +200,13 @@
 		52E43F4915B59C890029F979 /* ru-itunes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ru-itunes.html"; sourceTree = "<group>"; };
 		52E43F4A15B59C890029F979 /* ru-keyfiles.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ru-keyfiles.html"; sourceTree = "<group>"; };
 		52E43F4B15B59C890029F979 /* ru-safariemail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "ru-safariemail.html"; sourceTree = "<group>"; };
+		55F7452423B6C32B009E513A /* MiniKeePass++.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MiniKeePass++.entitlements"; sourceTree = "<group>"; };
+		55F7452523B6C32B009E513A /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		55F7452B23B6C4AE009E513A /* AutoFillProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AutoFillProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F7452E23B6C4AE009E513A /* CredentialProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderViewController.swift; sourceTree = "<group>"; };
+		55F7453123B6C4AE009E513A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		55F7453323B6C4AE009E513A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F7453423B6C4AE009E513A /* AutoFillProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoFillProvider.entitlements; sourceTree = "<group>"; };
 		6802C36E1A425D7300595AC9 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		680C277416050C7A009403DE /* DDXMLDocument+MKPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDXMLDocument+MKPAdditions.h"; sourceTree = "<group>"; };
 		680C277516050C7A009403DE /* DDXMLDocument+MKPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DDXMLDocument+MKPAdditions.m"; sourceTree = "<group>"; };
@@ -370,6 +403,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		55F7452823B6C4AE009E513A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7452C23B6C4AE009E513A /* AuthenticationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		689DFFD213A4273F005EBD36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +419,7 @@
 				689D000D13A42765005EBD36 /* AudioToolbox.framework in Frameworks */,
 				689DFFDE13A4273F005EBD36 /* CoreGraphics.framework in Frameworks */,
 				689DFFDC13A4273F005EBD36 /* Foundation.framework in Frameworks */,
+				55F7452623B6C32B009E513A /* AuthenticationServices.framework in Frameworks */,
 				6802C36F1A425D7300595AC9 /* LocalAuthentication.framework in Frameworks */,
 				68EBC2D61613394D00E8E799 /* QuartzCore.framework in Frameworks */,
 				689D000F13A42777005EBD36 /* Security.framework in Frameworks */,
@@ -441,6 +483,17 @@
 				52E43F4B15B59C890029F979 /* ru-safariemail.html */,
 			);
 			path = ru;
+			sourceTree = "<group>";
+		};
+		55F7452D23B6C4AE009E513A /* AutoFillProvider */ = {
+			isa = PBXGroup;
+			children = (
+				55F7452E23B6C4AE009E513A /* CredentialProviderViewController.swift */,
+				55F7453023B6C4AE009E513A /* MainInterface.storyboard */,
+				55F7453323B6C4AE009E513A /* Info.plist */,
+				55F7453423B6C4AE009E513A /* AutoFillProvider.entitlements */,
+			);
+			path = AutoFillProvider;
 			sourceTree = "<group>";
 		};
 		680C9D751D69E2A70040FB43 /* Help View */ = {
@@ -661,6 +714,7 @@
 				682D44F01603883900156830 /* IOStream */,
 				689D02B013A42B63005EBD36 /* KeePassLib */,
 				689D02F313A42B63005EBD36 /* KissXML */,
+				55F7452D23B6C4AE009E513A /* AutoFillProvider */,
 				689DFFD813A4273F005EBD36 /* Frameworks */,
 				689D041413A42B85005EBD36 /* Resources */,
 				689DFFD613A4273F005EBD36 /* Products */,
@@ -672,6 +726,7 @@
 			isa = PBXGroup;
 			children = (
 				689DFFD513A4273F005EBD36 /* MiniKeePass++.app */,
+				55F7452B23B6C4AE009E513A /* AutoFillProvider.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -679,6 +734,7 @@
 		689DFFD813A4273F005EBD36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55F7452523B6C32B009E513A /* AuthenticationServices.framework */,
 				6802C36E1A425D7300595AC9 /* LocalAuthentication.framework */,
 				689D000C13A42765005EBD36 /* AudioToolbox.framework */,
 				689DFFDD13A4273F005EBD36 /* CoreGraphics.framework */,
@@ -695,6 +751,7 @@
 		689DFFDF13A4273F005EBD36 /* MiniKeePass */ = {
 			isa = PBXGroup;
 			children = (
+				55F7452423B6C32B009E513A /* MiniKeePass++.entitlements */,
 				689D043213A42C81005EBD36 /* AppDelegate.h */,
 				689D043313A42C81005EBD36 /* AppDelegate.m */,
 				68767B661D6F241F0039EFE0 /* Main.storyboard */,
@@ -865,6 +922,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		55F7452A23B6C4AE009E513A /* AutoFillProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F7453823B6C4AE009E513A /* Build configuration list for PBXNativeTarget "AutoFillProvider" */;
+			buildPhases = (
+				55F7452723B6C4AE009E513A /* Sources */,
+				55F7452823B6C4AE009E513A /* Frameworks */,
+				55F7452923B6C4AE009E513A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoFillProvider;
+			productName = AutoFillProvider;
+			productReference = 55F7452B23B6C4AE009E513A /* AutoFillProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		689DFFD413A4273F005EBD36 /* MiniKeePass */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 689D000613A42740005EBD36 /* Build configuration list for PBXNativeTarget "MiniKeePass" */;
@@ -873,10 +947,12 @@
 				689DFFD213A4273F005EBD36 /* Frameworks */,
 				68C17C9C1A3E1774008DD56B /* Increment Build Number */,
 				689DFFD313A4273F005EBD36 /* Resources */,
+				55F7453B23B6C4AE009E513A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				55F7453623B6C4AE009E513A /* PBXTargetDependency */,
 			);
 			name = MiniKeePass;
 			productName = MiniKeePass;
@@ -889,9 +965,15 @@
 		689DFFCC13A4273F005EBD36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Self;
 				TargetAttributes = {
+					55F7452A23B6C4AE009E513A = {
+						CreatedOnToolsVersion = 11.3;
+						DevelopmentTeam = P2PHTBB9AX;
+						ProvisioningStyle = Automatic;
+					};
 					689DFFD413A4273F005EBD36 = {
 						DevelopmentTeam = P2PHTBB9AX;
 						LastSwiftMigration = 0900;
@@ -921,6 +1003,7 @@
 				pt,
 				nl,
 				tr,
+				Base,
 			);
 			mainGroup = 689DFFCA13A4273F005EBD36;
 			productRefGroup = 689DFFD613A4273F005EBD36 /* Products */;
@@ -934,6 +1017,7 @@
 			projectRoot = "";
 			targets = (
 				689DFFD413A4273F005EBD36 /* MiniKeePass */,
+				55F7452A23B6C4AE009E513A /* AutoFillProvider */,
 			);
 		};
 /* End PBXProject section */
@@ -949,6 +1033,14 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		55F7452923B6C4AE009E513A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7453223B6C4AE009E513A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		689DFFD313A4273F005EBD36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1015,6 +1107,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		55F7452723B6C4AE009E513A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F7452F23B6C4AE009E513A /* CredentialProviderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		689DFFD113A4273F005EBD36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1101,7 +1201,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		55F7453623B6C4AE009E513A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F7452A23B6C4AE009E513A /* AutoFillProvider */;
+			targetProxy = 55F7453523B6C4AE009E513A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		55F7453023B6C4AE009E513A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F7453123B6C4AE009E513A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		687AAA991889F8B400AB8AC5 /* AppStore.txt */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1158,6 +1274,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		55F7453923B6C4AE009E513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AutoFillProvider/AutoFillProvider.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P2PHTBB9AX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AutoFillProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kargeor.minikeepass.autofillprovider;
+				PRODUCT_MODULE_NAME = MiniKeePassAutoFillExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55F7453A23B6C4AE009E513A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = AutoFillProvider/AutoFillProvider.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P2PHTBB9AX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AutoFillProvider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kargeor.minikeepass.autofillprovider;
+				PRODUCT_MODULE_NAME = MiniKeePassAutoFillExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		689D000413A42740005EBD36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1211,7 +1390,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_MODULE_NAME = MiniKeePass;
+				PRODUCT_MODULE_NAME = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1261,8 +1440,7 @@
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_MODULE_NAME = MiniKeePass;
-				PROVISIONING_PROFILE = "4758DC3A-B5A3-47FC-BA60-308A27C51D17";
+				PRODUCT_MODULE_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -1272,9 +1450,11 @@
 		689D000713A42740005EBD36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "MiniKeePass/MiniKeePass++.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1284,10 +1464,10 @@
 				INFOPLIST_FILE = "MiniKeePass/MiniKeePass-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kargeor.minikeepass;
+				PRODUCT_MODULE_NAME = MiniKeePass;
 				PRODUCT_NAME = "MiniKeePass++";
-				PROVISIONING_PROFILE = "5443260a-ff69-4503-8b4b-2b598dc5db88";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MiniKeePass/MiniKeePass-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1300,8 +1480,10 @@
 		689D000813A42740005EBD36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "MiniKeePass/MiniKeePass++.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1311,10 +1493,10 @@
 				INFOPLIST_FILE = "MiniKeePass/MiniKeePass-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kargeor.minikeepass;
+				PRODUCT_MODULE_NAME = MiniKeePass;
 				PRODUCT_NAME = "MiniKeePass++";
-				PROVISIONING_PROFILE = "5443260a-ff69-4503-8b4b-2b598dc5db88";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "MiniKeePass/MiniKeePass-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -1326,6 +1508,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		55F7453823B6C4AE009E513A /* Build configuration list for PBXNativeTarget "AutoFillProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F7453923B6C4AE009E513A /* Debug */,
+				55F7453A23B6C4AE009E513A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		689D000613A42740005EBD36 /* Build configuration list for PBXNativeTarget "MiniKeePass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
