@@ -1,7 +1,7 @@
-MiniKeePass
+MiniKeePass++
 ===========
 
-MiniKeePass provides secure password storage on your phone that's compatible with KeePass.
+MiniKeePass++, forked from the original MiniKeePass, provides secure password storage on your phone that's compatible with KeePass.
 
 - View, Edit, and Create KeePass 1.x and 2.x files
 - Search for entries from the top of tables like in Mail
@@ -13,6 +13,12 @@ MiniKeePass provides secure password storage on your phone that's compatible wit
 - Remember database passwords in the device's secure keychain
 - Optionally clear the clipboard after set time on devices that support background tasks
 - Generate new passwords
+
+MiniKeePass++ New Features
+---
+
+- TBD
+
 
 FAQ
 ---
