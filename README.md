@@ -3,6 +3,13 @@ MiniKeePass++
 
 MiniKeePass++, forked from the original MiniKeePass, provides secure password storage on your phone that's compatible with KeePass.
 
+## MiniKeePass++ New Features
+
+### v1.0
+- AutoFill Credential Provider Extension
+
+## MiniKeePass Features
+
 - View, Edit, and Create KeePass 1.x and 2.x files
 - Search for entries from the top of tables like in Mail
 - Key File Support
@@ -14,10 +21,7 @@ MiniKeePass++, forked from the original MiniKeePass, provides secure password st
 - Optionally clear the clipboard after set time on devices that support background tasks
 - Generate new passwords
 
-MiniKeePass++ New Features
----
 
-- TBD
 
 
 FAQ
